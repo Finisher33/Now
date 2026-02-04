@@ -1,9 +1,7 @@
-import path from 'path';
-import { defineConfig, loadEnv } from 'vite';
-import react from '@vitejs/plugin-react';
-
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/Now/',  // 저장소 이름을 입력
-  // ... 기존 설정
+  plugins: [react()],
+  base: '/Now/', // 이 줄을 반드시 추가해야 합니다!
 })
