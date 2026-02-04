@@ -4,7 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xClass NOW | Live Webinar</title>
+    <title>NOW | Live Webinar</title>
+    
+    <!-- SEO & Social Sharing -->
+    <meta name="description" content="실시간 지식 공유의 장, NOW 라이브 웨비나에 참여하세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://finisher33.github.io/Landingpage/">
+    <meta property="og:title" content="NOW | Live Webinar">
+    <meta property="og:description" content="지정학 및 기술 트렌드 라이브 웨비나 등록 페이지">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <style>
@@ -22,6 +31,20 @@
             background-color: #0f172a;
             color: white;
         }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #334155;
+        }
     </style>
 <script type="importmap">
 {
@@ -37,7 +60,10 @@
   }
 }
 </script>
-<link rel="stylesheet" href="./index.css">
-<script type="module" src="./index.tsx"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>
